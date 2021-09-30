@@ -1,9 +1,9 @@
 package com.max.coupon.service.impl;
 
-import com.max.com.max.mapper.entity.Activity;
-import com.max.com.max.mapper.mapper.ActivityMapper;
-import com.max.com.max.mapper.service.IActivityService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.max.coupon.entity.Activity;
+import com.max.coupon.mapper.ActivityMapper;
+import com.max.coupon.service.IActivityService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2021-09-30
  */
 @Service
-public class ActivityServiceImpl extends ServiceImpl<ActivityMapper, Activity> implements IActivityService {
+public class ActivityServiceImpl extends ServiceImpl<ActivityMapper, Activity> implements
+    IActivityService {
 
 }

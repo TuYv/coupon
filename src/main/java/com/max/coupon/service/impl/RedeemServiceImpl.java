@@ -1,9 +1,9 @@
 package com.max.coupon.service.impl;
 
-import com.max.com.max.mapper.entity.Redeem;
-import com.max.com.max.mapper.mapper.RedeemMapper;
-import com.max.com.max.mapper.service.IRedeemService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.max.coupon.entity.Redeem;
+import com.max.coupon.mapper.RedeemMapper;
+import com.max.coupon.service.IRedeemService;
 import org.springframework.stereotype.Service;
 
 /**

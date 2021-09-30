@@ -1,9 +1,9 @@
 package com.max.coupon.service.impl;
 
-import com.max.com.max.mapper.entity.CouponCount;
-import com.max.com.max.mapper.mapper.CouponCountMapper;
-import com.max.com.max.mapper.service.ICouponCountService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.max.coupon.entity.CouponCount;
+import com.max.coupon.mapper.CouponCountMapper;
+import com.max.coupon.service.ICouponCountService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2021-09-30
  */
 @Service
-public class CouponCountServiceImpl extends ServiceImpl<CouponCountMapper, CouponCount> implements ICouponCountService {
+public class CouponCountServiceImpl extends ServiceImpl<CouponCountMapper, CouponCount> implements
+    ICouponCountService {
 
 }

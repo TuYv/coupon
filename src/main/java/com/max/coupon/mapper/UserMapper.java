@@ -1,7 +1,7 @@
 package com.max.coupon.mapper;
 
-import com.max.com.max.mapper.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.max.coupon.entity.User;
 
 /**
  * <p>

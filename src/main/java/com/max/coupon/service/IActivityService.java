@@ -1,7 +1,7 @@
 package com.max.coupon.service;
 
-import com.max.com.max.mapper.entity.Activity;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.max.coupon.entity.Activity;
 
 /**
  * <p>

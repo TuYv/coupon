@@ -1,9 +1,9 @@
 package com.max.coupon.service.impl;
 
-import com.max.com.max.mapper.entity.User;
-import com.max.com.max.mapper.mapper.UserMapper;
-import com.max.com.max.mapper.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.max.coupon.entity.User;
+import com.max.coupon.mapper.UserMapper;
+import com.max.coupon.service.IUserService;
 import org.springframework.stereotype.Service;
 
 /**
