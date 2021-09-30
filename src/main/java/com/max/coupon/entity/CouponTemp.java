@@ -1,4 +1,4 @@
-package com.max.com.max.mapper.entity;
+package com.max.coupon.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

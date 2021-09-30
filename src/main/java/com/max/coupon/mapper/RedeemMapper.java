@@ -1,4 +1,4 @@
-package com.max.com.max.mapper.mapper;
+package com.max.coupon.mapper;
 
 import com.max.com.max.mapper.entity.Redeem;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

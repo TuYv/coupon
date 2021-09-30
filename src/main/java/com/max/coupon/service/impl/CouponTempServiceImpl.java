@@ -1,5 +1,4 @@
-package com.max.com.max.mapper.service.impl;
-
+package com.max.coupon.service.impl;
 import com.max.com.max.mapper.entity.CouponTemp;
 import com.max.com.max.mapper.mapper.CouponTempMapper;
 import com.max.com.max.mapper.service.ICouponTempService;

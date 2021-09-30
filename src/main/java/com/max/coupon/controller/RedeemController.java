@@ -1,5 +1,4 @@
-package com.max.com.max.mapper.controller;
-
+package com.max.coupon.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 

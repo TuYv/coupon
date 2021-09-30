@@ -1,4 +1,4 @@
-package com.max.com.max.mapper.entity;
+package com.max.coupon.entity;
 
 import java.io.Serializable;
 import lombok.Data;

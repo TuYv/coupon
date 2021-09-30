@@ -1,4 +1,4 @@
-package com.max.com.max.mapper.service.impl;
+package com.max.coupon.service.impl;
 
 import com.max.com.max.mapper.entity.Redeem;
 import com.max.com.max.mapper.mapper.RedeemMapper;
