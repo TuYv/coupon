@@ -29,12 +29,12 @@ public class Activity implements Serializable {
     /**
      * 开始时间
      */
-    private LocalDate startTime;
+    private String startTime;
 
     /**
      * 结束实现
      */
-    private LocalDate endTime;
+    private String endTime;
 
     /**
      * 状态0 审核中 1 已审核 2已上线 3已结束

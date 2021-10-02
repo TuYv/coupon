@@ -1,5 +1,7 @@
 package com.max.coupon.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDate;
 import java.io.Serializable;
 import lombok.Data;
@@ -19,6 +21,7 @@ public class CouponUse implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
     /**
@@ -34,12 +37,12 @@ public class CouponUse implements Serializable {
     /**
      * 有效起期
      */
-    private LocalDate startTime;
+    private String startTime;
 
     /**
      * 有效止期
      */
-    private LocalDate endTime;
+    private String endTime;
 
     /**
      * 0未使用 1已使用 2 已过期 

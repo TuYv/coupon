@@ -13,4 +13,5 @@ import com.max.coupon.entity.CouponCount;
  */
 public interface ICouponCountService extends IService<CouponCount> {
 
+    boolean minusStock(int id, int amount);
 }

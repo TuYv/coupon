@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-09-30
  */
 @RestController
-@RequestMapping("/com.max.mapper/user")
+@RequestMapping("/coupon/user")
 public class UserController {
 
 }
