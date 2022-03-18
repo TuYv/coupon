@@ -2,6 +2,7 @@ package com.max.coupon.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.max.coupon.entity.CouponCount;
 import com.max.coupon.entity.CouponUse;
 
 /**
@@ -14,5 +15,12 @@ import com.max.coupon.entity.CouponUse;
  */
 public interface ICouponUseService extends IService<CouponUse> {
 
-    int selectCount(QueryWrapper<CouponUse> queryWrapper);
+    /**
+     * 给一个用户生成num条优惠券
+     * @param couponCount
+     * @param userId
+     * @param num
+     * @return
+     */
+    public String getCoupon(CouponCount couponCount, int userId,int num);
 }

@@ -53,5 +53,6 @@ public class CouponUseController {
         //1. 获取couponCount情况
         CouponCount couponCount = couponCountService.getById(couponId);
 
+        return couponUseService.getCoupon(couponCount,userId, num);
     }
 }
